@@ -95,7 +95,7 @@ npm start  # Runs on http://localhost:3000
 # UI Features
 
 - **Dashboard**: Document statistics and listing with filtering options
-![Dashboard UI](./images/UI-Doc-Processor.png)
+![Dashboard UI](./images/UI-Doc-processor.png)
 - **Upload Interface**: Simple drag-and-drop document upload
 ![Upload Interface UI](./images/upload-doc.png)
 - **Document View**: Detailed view of processed documents and extracted data
