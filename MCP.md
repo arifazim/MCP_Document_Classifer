@@ -92,6 +92,15 @@ npm start  # Runs on http://localhost:3000
 - `DELETE /api/documents/{document_id}`: Delete a document
 - `GET /api/memory-status`: Check memory store status (debugging)
 
+# UI Features
+
+- **Dashboard**: Document statistics and listing with filtering options
+![Dashboard UI](./images/UI-Doc-Processor.png)
+- **Upload Interface**: Simple drag-and-drop document upload
+![Upload Interface UI](./images/upload-doc.png)
+- **Document View**: Detailed view of processed documents and extracted data
+![Document View UI](./images/processed-doc.png)
+
 ## Technical Notes
 
 - Documents are stored in `data/documents/` with a 24-hour TTL
