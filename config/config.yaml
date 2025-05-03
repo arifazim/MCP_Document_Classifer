@@ -1,0 +1,23 @@
+app:
+  name: MCP Document Processor
+  version: 0.1.0
+  log_level: INFO
+
+models:
+  document_classifier:
+    model_name: "bert-base-uncased"
+    threshold: 0.75
+  entity_extractor:
+    model_name: "bert-base-uncased"
+    confidence_threshold: 0.65
+  summarizer:
+    model_name: "t5-small"
+    max_length: 150
+
+mcp:
+  memory:
+    type: "in_memory"  # Options: in_memory, redis, database
+    ttl: 3600  # Time to live in seconds
+  context:
+    max_size: 10000
+    compression: True
